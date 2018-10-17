@@ -1,6 +1,7 @@
 #img-profile {
   width: 100px;
   height: 100px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
 }
 
 .img-circle {
@@ -8,15 +9,14 @@
 }
 
 .img-size {
-  width: 150px;
-  height: 100px;
+  width: 90px;
+  height: 90px;
   border-radius: 2px;
 }
 
 .container {
-  width: 500px;
+  width: 550px;
   margin: 0 auto;
-  padding: 100px;
 }
 
 .card {
@@ -40,7 +40,12 @@
   padding-left: 0px;
 }
 
-p, h1, h2, h3 {
+i {
+  font-size: 20px;
+  padding: 5px;
+}
+
+p, h1, h2, h3, li {
   font-family: Roboto,sans-serif;
   color: #7A837F;
   font-weight: 300;
@@ -57,13 +62,17 @@ h1 {
 }
 
 h2 {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: normal;
 }
 
 h3 {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: normal;
+}
+
+p {
+  font-size: 12px;
 }
 
 a {
